@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#fee715e0 ;
+    margin: 0;
+    padding: 10px;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    background: #101820FF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0, 0, 0.1);
+}
+header{
+    text-align: center;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h2{
+    color: #f3e300;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+}
+button text{
+    color: black;
+}
+p{
+    color: #ffffff;
+}
+h1{
+    color: #fee715;
+}
+#skills ul{
+    color: antiquewhite;
+}
