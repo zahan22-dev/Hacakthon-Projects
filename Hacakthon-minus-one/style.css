@@ -1,0 +1,213 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#101820FF ;
+    margin: 0;
+    padding: 0%;
+}
+/* Css of resume */
+.containerOfRes{
+    max-width: 700px;
+    margin: auto;
+    background: #fff171e0;
+    padding: 0%;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0, 0, 0.1);
+    align-items: center;
+}
+#header{
+    padding-top: 20px;
+    text-align: center;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#education{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#work-experience{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    color: #000000;
+}
+#toggle-skills{
+    margin-top: 2px;
+    padding: 10px;
+    background-color: #101820FF;
+    color: #fff171e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 43%;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: aliceblue;
+}
+button text{
+    color: black;
+}
+p{
+    color: #000000;
+}
+h1{
+    color: #000000;
+}
+#skills ul{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+/* Css of index */
+.container {
+    width: 100%;
+    max-height: fit-content;
+    margin: 0%;
+    background-color:#101820FF ;
+    background-size: cover;
+    padding: 0%;
+
+}
+.leftHome{
+    width: 50%;
+    height: 500px;
+    background-color: aliceblue;
+}
+.rightHome{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(3, 137, 255);
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        
+}
+/* Css of about page */
+.AboutUs{
+    max-width: 1000px;;
+    text-align: center;
+    background-color: #fff171e0;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 3px 4px #000000;
+}
+#contactButton{
+    margin-top: 2px;
+    padding: 10px;
+    background-color: #101820FF;
+    color: #fff171e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+#drb{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: -5px;
+}
+form{
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+fieldset {
+    border: 2px solid rgba(255, 255, 17, 0.815);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+label{
+   display: block;
+   margin-top: 10px;
+   color: black;
+}
+input,textarea{
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% -1px);
+    border: 1px skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#btn{
+    display: block;
+    width: 100%;
+    background-color: yellow;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+    color: rgb(252, 252, 252);
+    
+}
+#displayResume {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#displayResume h2 {
+    color: black;
+}

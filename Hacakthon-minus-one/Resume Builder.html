@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Resume Builder.html">Resume Builder</a></li>
+                <li><a href="My Resume.html">My Resume</a></li>
+                <li><a href="About.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="drb">Dynamic Resume Builder</h1>
+    </div>
+    <form id="resumeBuilder">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email"required>
+
+            <label for="phone">Name:</label>
+            <input type="tel" id="phone" placeholder="Enter your number"required>
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education:</label>
+            <textarea id="education" placeholder="Enter your Education" rows="4"required></textarea>
+
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="Experience">Work Experience:</label>
+            <textarea id="workExperience" placeholder="Enter your work experience" rows="4"required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter your Skills" rows="4"required></textarea>
+        </fieldset>
+        <button type="submit" id="btn"><b>Generate Resume</b></button>
+    </form>
+    <div id="displayResume">
+
+    </div>
+   
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
