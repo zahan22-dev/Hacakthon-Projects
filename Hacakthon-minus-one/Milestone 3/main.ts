@@ -1,26 +1,3 @@
-// Making skills button
-document.addEventListener("DOMContentLoaded", () => {
-    const toggleButton = document.getElementById("toggle-skills") as HTMLButtonElement;
-    const skillsSection = document.getElementById("skills") as HTMLElement;
-
-    toggleButton.addEventListener("click", () => {
-        if (skillsSection.style.display === "none" || skillsSection.style.display === "") {
-            skillsSection.style.display = "block";
-            toggleButton.textContent = "Hide Skills";
-        } else {
-            skillsSection.style.display = "none";
-            toggleButton.textContent = "Show Skills";
-        }
-    });
-});
-// Making contact button
-document.addEventListener('DOMContentLoaded', function() {
-    const contactButton:any = document.getElementById('contactButton');
-    
-    contactButton.addEventListener('click', function() {
-        alert('Thank you for your interest! Please contact us at info@yourcompany.com.');
-    });
-});
 // Importing data for form
 const resumeForm = document.getElementById('resumeBuilder') as HTMLFormElement;
 const displayResume = document.getElementById('displayResume') as HTMLDivElement;
