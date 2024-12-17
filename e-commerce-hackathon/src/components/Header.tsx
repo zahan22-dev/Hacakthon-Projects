@@ -13,7 +13,7 @@ const Header = () => {
       <div className='flex justify-between items-center md:pl-[150px]'>
         {/* Logo */}
         <Sheet2 />
-      <h1 className='text-xl sm:text-4xl font-bold'
+      <h1 className='text-2xl sm:text-4xl font-extrabold md:font-bold'
       >SHOP.CO</h1>
 
       {/* Navbar */}
