@@ -9,8 +9,8 @@ import {
 } from "@/components/ui/sheet"
 import Link  from "next/link"
 import NavMenu from "./NavMenu";
-const SHEET_SIDES = ["left"] as const 
-type Sheet2 = (typeof SHEET_SIDES)[number]
+// const SHEET_SIDES= ["left"] as const 
+// type Sheet2 = (typeof Sheet2)[number]
 export default function Sheet2() {
   return (
     <Sheet>
